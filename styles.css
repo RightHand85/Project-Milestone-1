@@ -1,0 +1,51 @@
+/* General styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    color: gold;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://fcit.usf.edu/matrix/wp-content/uploads/2019/03/CircuitBoard-K-Wide.jpg');
+    background-position: center; /* Centers the background image */
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #4a4949;
+    text-align: center;
+    border-radius: 25px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: gold;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #060606;
+    padding: 20px;
+    color: white;
+    text-align: left;
+}
+
+footer  {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0%;
+    border-radius: 25px;
+    background-color: #4a4949;
+    color: gold;
+  
+
+}
