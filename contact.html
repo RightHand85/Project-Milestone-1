@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Want to Reach Out?</h1>
+        <p>Feel free to get in touch below.</p>
+
+        <!-- Contact Information Section -->
+        <div id="contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+            <p>Phone: <a href="tel:+1234567890">+1234567890</a></p>
+            <p>Connect on:</p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/yourprofile" target="_blank">GitHub</a></li>
+                <li><a href="https://twitter.com/yourprofile" target="_blank">Twitter</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact Form Section -->
+        <form id="contactForm">
+            <fieldset>
+                <legend>Contact Me</legend>
+                
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </fieldset>
+        </form>
+        
+        <!-- Success and Error Messages -->
+        <div id="error-message" style="color: red; display: none;">Please fill in all fields correctly.</div>
+        <div id="success-message" style="color: green; display: none;">Message sent successfully!</div>
+    </main>
+
+    <footer>
+        <p>Right Hand Lee&trade;</p>
+    </footer>
+
+    <!-- External JavaScript file for form validation -->
+    <script src="scripts.js"></script>
+</body>
+</html>
